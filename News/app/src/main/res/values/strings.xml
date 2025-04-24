@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="sample_title">Breaking News</string>
+    <string name="news_image_desc">News image thumbnail</string>
+    <string name="related_news_title">Related News Title</string>
+    <string name="related_stories">Related Stories</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="news_label">News</string>
+    <string name="news_image">News image</string>
+    <string name="news_title">News Title</string>
+    <string name="news_description">News Description</string>
+    <string name="related_news_description">This is a short description of related news.</string>
+    <string name="top_stories_label">Top Stories</string>
+    <string name="latest_news_label">Latest News</string>
+    <string name="top_stories_content_desc">Horizontal list of top stories</string>
+    <string name="latest_news_content_desc">Horizontal list of latest news</string>
+    <string name="news">News</string>
+    <string name="sample_description">Sample description goes here</string>
+    <string name="back">Back</string>
+
+
+
+</resources>

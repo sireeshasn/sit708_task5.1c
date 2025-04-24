@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/music"
+        android:scaleType="centerCrop"
+        android:contentDescription="Background" />
+
+    <!-- Semi-transparent overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" /> <!-- 50% black overlay -->
+
+    <!-- Login UI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Heading: iTube App -->
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iTube App"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/montserrat_bold" />
+    </LinearLayout>
+</FrameLayout>

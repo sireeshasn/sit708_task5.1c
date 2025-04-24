@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/music"
+    android:padding="24dp">
+
+    <!-- YouTube URL Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube URL:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- YouTube URL Input -->
+    <EditText
+        android:id="@+id/videoUrlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter YouTube URL"
+        android:textColorHint="#CCCCCC"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFFFFF"/>
+
+    <!-- Play Button -->
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF3C69"
+        android:textColor="@android:color/white" />
+
+    <!-- Add to Playlist Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD TO PLAYLIST"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#3C9EFF"
+        android:textColor="@android:color/white" />
+
+    <!-- My Playlist Button -->
+    <Button
+        android:id="@+id/myPlaylistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY PLAYLIST"
+        android:backgroundTint="#AAAAAA"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base app theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Set transparent action bar -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryVariant">@android:color/transparent</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">@drawable/music</item> <!-- Your wallpaper image -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Global text color -->
+        <item name="android:buttonStyle">@style/CustomButton</item>
+        <item name="fontFamily" type="">@font/montserrat</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#FF9800</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+    <!-- Apply custom font globally -->
+
+
+</resources>
